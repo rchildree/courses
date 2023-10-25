@@ -4,8 +4,8 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/VCTRMonov0.12-LightItalic.woff2") format("woff2"),
-       url("../fonts/VCTRMonov0.12-LightItalic.woff") format("woff");
+  src: url("../fonts/VCTRMonov0.12-Light.woff2") format("woff2"),
+       url("../fonts/VCTRMonov0.12-Light.woff") format("woff");
 }
 @font-face {
   font-family: "VCTR";
