@@ -42,6 +42,7 @@
 body
 	{ background: #eff3f5; }
 
+/* Flyin menu */
 #menuToggle
 	{
 	display: block;
@@ -146,3 +147,12 @@ body
 
 #menuToggle input:checked ~ ul
 	{ transform: none; }
+
+
+/* Main articles */
+main {
+	margin: 50px auto;
+	max-width: 50ch;
+	padding: 20px;
+	background-color: #ffffff;
+}
