@@ -152,7 +152,7 @@ body
 /* Main articles */
 main {
 	margin: 50px auto;
-	max-width: 50ch;
+	width: max(45%, 50ch);
 	padding: 20px;
 	background-color: #ffffff;
 }
