@@ -98,7 +98,7 @@
 }
 
 body
-	{ background: #7399ab; }
+	{ background: #d3f1ff; }
 
 /* Flyin menu */
 #menuToggle
@@ -146,7 +146,7 @@ body
 	margin-bottom: 5px;
 	position: relative;
 	
-	background: #cdcdcd;
+	background: #0d5c7b;
 	border-radius: 3px;
 	
 	z-index: 1;
@@ -212,5 +212,5 @@ main {
 	margin: 50px auto;
 	width: max(45%, 50ch);
 	padding: 20px;
-	background-color: #7bb9d6;
+	background-color: #fff;
 }
