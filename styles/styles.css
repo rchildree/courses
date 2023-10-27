@@ -86,6 +86,10 @@
 */
 
 /* Main stuff */
+:root {
+	--blueback: #d3f1ff;
+	--beigeback: #f3f3f3;
+}
 
 * {
 	margin: 0;
@@ -97,8 +101,13 @@
 	font-feature-settings: 'liga';
 }
 
-body
-	{ background: #d3f1ff; }
+body { 
+	background: var(--beigeback);
+	padding: 25px 75px;
+	display:grid;
+	grid-template-columns: 20ch minmax(50ch, 1fr);
+	grid-gap: 35px;
+}
 
 /* Flyin menu */
 #menuToggle
