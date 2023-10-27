@@ -108,7 +108,7 @@ body {
 	padding: 25px 75px;
 	/* display:grid;
 	grid-template-columns: 20ch minmax(50ch, 1fr); */
-	gap: 50px;
+	gap: 35px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -226,7 +226,21 @@ body {
 /* Main articles */
 main {
 	margin: 0;
-	width: max(45%, 50ch);
+	width: min(65ch, 720px);
 	padding: 20px;
 	background-color: #fff;
 }
+
+aside {
+	position: sticky;
+	top:75px;
+	width: min(20ch, 300px);
+	padding-top: 20px;
+	outline: 1px solid red;
+}
+
+aside > ul {list-style-type: none}
+
+p {line-height:1.68}
+
+p + p {margin-top: .5em}
