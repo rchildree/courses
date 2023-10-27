@@ -102,11 +102,18 @@
 }
 
 body { 
+	width: 75vw;
+	margin:50px auto 100px;
 	background: var(--beigeback);
 	padding: 25px 75px;
-	display:grid;
-	grid-template-columns: 20ch minmax(50ch, 1fr);
-	grid-gap: 35px;
+	/* display:grid;
+	grid-template-columns: 20ch minmax(50ch, 1fr); */
+	gap: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items:flex-start;
+	justify-content:center;
 }
 
 /* Flyin menu */
@@ -218,7 +225,7 @@ body {
 
 /* Main articles */
 main {
-	margin: 50px auto;
+	margin: 0;
 	width: max(45%, 50ch);
 	padding: 20px;
 	background-color: #fff;
